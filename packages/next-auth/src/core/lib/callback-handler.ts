@@ -66,6 +66,8 @@ export default async function callbackHandler(params: {
 
   const useJwtSession = sessionStrategy === "jwt"
 
+  console.log("HOLA CUSOTM")
+
   if (sessionToken) {
     if (useJwtSession) {
       try {
